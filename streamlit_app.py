@@ -10,11 +10,6 @@ from PIL import Image
 nltk.download('punkt')
 nltk.download('stopwords')
 
-image = Image.open('me2.png')
-
-st.image(image, caption='EMAIL')
-
-
 
 def transform_text(text):
     text = text.lower()
